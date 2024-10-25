@@ -26,13 +26,109 @@ With 79 explanatory variables describing (almost) every aspect of residential ho
 If your README is long, include a table of contents to help users navigate.-->
 
 ## Table of Contents
+- [Dataset Description](#datasetdescription)
 - [Usage](#usage)
 - [Contact](#contact)
 
 
 
+<!-- ### 4. Data Description
+Explain how to use your project. Include code examples and screenshots if necessary.-->
 
-<!-- ### 4. Usage
+## Dataset Description
+### File descriptions
+train.csv - the training set
+test.csv - the test set
+data_description.txt - full description of each column, originally prepared by Dean De Cock but lightly edited to match the column names used here
+sample_submission.csv - a benchmark submission from a linear regression on year and month of sale, lot square footage, and number of bedrooms
+### Data fields
+Here's a brief version of what you'll find in the data description file.
+
+- SalePrice - the property's sale price in dollars. This is the target variable that you're trying to predict.
+- MSSubClass: The building class
+- MSZoning: The general zoning classification
+- LotFrontage: Linear feet of street connected to property
+- LotArea: Lot size in square feet
+- Street: Type of road access
+- Alley: Type of alley access
+- LotShape: General shape of property
+- LandContour: Flatness of the property
+- Utilities: Type of utilities available
+- LotConfig: Lot configuration
+- LandSlope: Slope of property
+- Neighborhood: Physical locations within Ames city limits
+- Condition1: Proximity to main road or railroad
+- Condition2: Proximity to main road or railroad (if a second is present)
+- BldgType: Type of dwelling
+- HouseStyle: Style of dwelling
+- OverallQual: Overall material and finish quality
+- OverallCond: Overall condition rating
+- YearBuilt: Original construction date
+- YearRemodAdd: Remodel date
+- RoofStyle: Type of roof
+- RoofMatl: Roof material
+- Exterior1st: Exterior covering on house
+- Exterior2nd: Exterior covering on house (if more than one material)
+- MasVnrType: Masonry veneer type
+- MasVnrArea: Masonry veneer area in square feet
+- ExterQual: Exterior material quality
+- ExterCond: Present condition of the material on the exterior
+- Foundation: Type of foundation
+- BsmtQual: Height of the basement
+- BsmtCond: General condition of the basement
+- BsmtExposure: Walkout or garden level basement walls
+- BsmtFinType1: Quality of basement finished area
+- BsmtFinSF1: Type 1 finished square feet
+- BsmtFinType2: Quality of second finished area (if present)
+- BsmtFinSF2: Type 2 finished square feet
+- BsmtUnfSF: Unfinished square feet of basement area
+- TotalBsmtSF: Total square feet of basement area
+- Heating: Type of heating
+- HeatingQC: Heating quality and condition
+- CentralAir: Central air conditioning
+- Electrical: Electrical system
+- 1stFlrSF: First Floor square feet
+- 2ndFlrSF: Second floor square feet
+- LowQualFinSF: Low quality finished square feet (all floors)
+- GrLivArea: Above grade (ground) living area square feet
+- BsmtFullBath: Basement full bathrooms
+- BsmtHalfBath: Basement half bathrooms
+- FullBath: Full bathrooms above grade
+- HalfBath: Half baths above grade
+- Bedroom: Number of bedrooms above basement level
+- Kitchen: Number of kitchens
+- KitchenQual: Kitchen quality
+- TotRmsAbvGrd: Total rooms above grade (does not include bathrooms)
+- Functional: Home functionality rating
+- Fireplaces: Number of fireplaces
+- FireplaceQu: Fireplace quality
+- GarageType: Garage location
+- GarageYrBlt: Year garage was built
+- GarageFinish: Interior finish of the garage
+- GarageCars: Size of garage in car capacity
+- GarageArea: Size of garage in square feet
+- GarageQual: Garage quality
+- GarageCond: Garage condition
+- PavedDrive: Paved driveway
+- WoodDeckSF: Wood deck area in square feet
+- OpenPorchSF: Open porch area in square feet
+- EnclosedPorch: Enclosed porch area in square feet
+- 3SsnPorch: Three season porch area in square feet
+- ScreenPorch: Screen porch area in square feet
+- PoolArea: Pool area in square feet
+- PoolQC: Pool quality
+- Fence: Fence quality
+- MiscFeature: Miscellaneous feature not covered in other categories
+- MiscVal: $Value of miscellaneous feature
+- MoSold: Month Sold
+- YrSold: Year Sold
+- SaleType: Type of sale
+- SaleCondition: Condition of sale
+
+
+
+
+<!-- ### 5. Usage
 Explain how to use your project. Include code examples and screenshots if necessary.-->
 
 ## Usage
@@ -44,7 +140,7 @@ npm start
 
 
 
-<!-- ### 5. Contributing
+<!-- ### 6. Contributing
 Provide guidelines for contributing to your project. This can include how to report issues, submit pull requests, and follow coding standards.
 
 ## Contributing
@@ -66,7 +162,7 @@ Provide guidelines for contributing to your project. This can include how to rep
 
 
 
-<!-- ### 6. License
+<!-- ### 7. License
 Specify the license under which your project is distributed.
 
 
@@ -77,7 +173,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 
-<!-- ### 7. Contact Information (Optional)
+<!-- ### 8. Contact Information (Optional)
 Include your contact information or ways to reach you for questions or support. -->
 
 ## Contact
