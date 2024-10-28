@@ -129,13 +129,13 @@ Here's a brief version of what you'll find in the data description file.
 
 
 <!-- ### 5. Usage
-Explain how to use your project. Include code examples and screenshots if necessary.-->
+Explain how to use your project. Include code examples and screenshots if necessary.
 
 ## Usage
 To start the project, run:
 ```bash
 npm start
-```
+``` -->
 
 
 
