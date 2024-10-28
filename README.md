@@ -27,7 +27,6 @@ If your README is long, include a table of contents to help users navigate.-->
 
 ## Table of Contents
 - [Dataset Description](#datasetdescription)
-- [Usage](#usage)
 - [Contact](#contact)
 
 
